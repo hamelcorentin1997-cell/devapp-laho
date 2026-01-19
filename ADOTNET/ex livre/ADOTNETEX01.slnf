@@ -1,0 +1,9 @@
+{
+  "solution": {
+    "path": "..\\..\\c#\\ADONET\\ADONET.slnx",
+    "projects": [
+      "ADONETEX01\\ADONETEX01.csproj",
+      "ADONET\\ADONET.csproj"
+    ]
+  }
+}
