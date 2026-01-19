@@ -22,19 +22,19 @@ namespace ADONETEX01.Class
                 switch (choice)
                 {
                     case "1":
-                        Book.AddBook();
+                        Repo.AddBook();
                         break;
                     case "2":
-                        Book.ReadAllBook();
+                        Repo.ReadAllBook();
                         break;
                     case "3":
-                        Book.ReadOneBook();
+                        Repo.ReadOneBook();
                         break;
                     case "4":
-                        Book.ModifyBook();
+                        Repo.ModifyBook();
                         break;
                     case "5":
-                        Book.DeleteBook();
+                        Repo.DeleteBook();
                         break;
                     case "0":
                         return;
