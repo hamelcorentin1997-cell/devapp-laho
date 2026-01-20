@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qlh6qxI0zhM=",
+  "dgSpecHash": "jr12f4y/DS4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrateur\\Desktop\\c#\\ADONET\\ADONETEX01\\ADONETEX01.csproj",
+  "projectFilePath": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX01\\ADONETEX01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrateur\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\Administrateur\\.nuget\\packages\\google.protobuf\\3.32.0\\google.protobuf.3.32.0.nupkg.sha512",

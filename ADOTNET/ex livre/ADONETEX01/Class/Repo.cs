@@ -2,73 +2,63 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using ADONETEX01.Class;
 
 namespace ADONETEX01.Class
 {
     internal class Repo
     {
-        public static void AddBook()
+        private static string _connectionString = "Server=localhost;Database=db_Livres ;User ID=root;Password=root";
+        public static bool AddBook( Book book)
         {
-            Console.WriteLine("Ajout d'un Nouveau livre");
-            Console.WriteLine("titre : ");
-            string title = Console.ReadLine();
-            Console.WriteLine("auteur : ");
-            string author = Console.ReadLine();
-            Console.WriteLine("date de publication : ");
-            int publishingYear = int.Parse(Console.ReadLine());
-            Console.WriteLine("isbn : ");
-            string isbn = Console.ReadLine();
-
-            // Creation de l'objet Personne
-            Book book = new Book(title, author, publishingYear, isbn);
-
-
-
+            bool result = false;
             // Mise en place de notre object qui nous servira a interagir avec la bdd
-            MySqlConnection connection = new MySqlConnection(Book._connectionString);
+            MySqlConnection connection = new MySqlConnection(_connectionString);
 
             try
             {
 
                 connection.Open();
-
-
                 string query = "INSERT INTO livres (title, author, publishingYear, isbn) VALUES (@title, @author, @publishingYear, @isbn)";
-
-
                 MySqlCommand cmd = new MySqlCommand(query, connection);
-
-
-                cmd.Parameters.AddWithValue("@title", title);
-                cmd.Parameters.AddWithValue("@author", author);
-                cmd.Parameters.AddWithValue("@publishingYear", publishingYear);
-                cmd.Parameters.AddWithValue("@isbn", isbn);
+                
+                
+                cmd.Parameters.AddWithValue("@title", book.Title);
+                cmd.Parameters.AddWithValue("@author", book.Author);
+                cmd.Parameters.AddWithValue("@publishingYear", book.PublishingYear);
+                cmd.Parameters.AddWithValue("@isbn", book.Isbn);
 
 
                 int rowAffected = cmd.ExecuteNonQuery();
                 if (rowAffected > 0)
                 {
-                    Console.WriteLine("Livre ajouté avec succes");
+                    result = true;
+                    //Console.WriteLine("Livre ajouté avec succes");
                 }
             }
             catch (Exception e)
-            { // j'atterit dans le catch si une erreur est arrive dans le try
-                Console.WriteLine("Erreur : " + e.Message);
+            {
+                result = false;
+                //// j'atterit dans le catch si une erreur est arrive dans le try
+                //Console.WriteLine("Erreur : " + e.Message);
             }
             finally
             {
                 connection.Close();
             }
+            return result;
         }
 
         // --------------------------------------------
         // --------------------------------------------
         // --------------------------------------------
 
-        public static void ReadAllBook()
+        public static List<Book> ReadAllBook()
         {
-            Console.WriteLine("=-=-=-= livres =-=-=-= enregistrés =-=-=-= ");
-            MySqlConnection conection = new MySqlConnection(Book._connectionString);
+            
+            //Console.WriteLine("=-=-=-= livres =-=-=-= enregistrés =-=-=-= ");
+            List<Book> books = new List<Book>();
+            MySqlConnection conection = new MySqlConnection(_connectionString);
             try
             {
                 conection.Open();
@@ -82,48 +72,48 @@ namespace ADONETEX01.Class
                     while (reader.Read())
                     {
                         Book b = new Book(reader.GetInt32("id"), reader.GetString("title"), reader.GetString("author"), reader.GetInt32("publishingYear"), reader.GetString("isbn"));
-                        Console.WriteLine(b);
+                        books.Add(b);
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Aucun livre dans la base de donnée.");
+                    //Console.WriteLine("Aucun livre dans la base de donnée.");
                 }
                 reader.Close();
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Erreur : {ex.Message}");
+                //Console.WriteLine($"Erreur : {ex.Message}");
             }
             finally
             {
                 conection.Close();
             }
+            return books;
         }
 
         // --------------------------------------------
         // --------------------------------------------
         // --------------------------------------------
-        public static void ReadOneBook()
+        public static Book ReadOneBook(int id)
         {
-            Console.WriteLine("id du livre recherché: ");
-            var id = int.Parse(Console.ReadLine());
 
-            MySqlConnection connection = new MySqlConnection(Book._connectionString);
+            Book book = null;
+            MySqlConnection connection = new MySqlConnection(_connectionString);
             try
             {
                 connection.Open();
 
                 string query = "SELECT * FROM livres WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(query, connection);
-                cmd.Parameters.AddWithValue("@id", id);
+                cmd.Parameters.AddWithValue("@id", Ihm.Id);
 
                 MySqlDataReader reader = cmd.ExecuteReader();
 
                 if (reader.Read())
                 {
-                    Book b = new Book(reader.GetInt32("id"), reader.GetString("title"), reader.GetString("author"), reader.GetInt32("publishingYear"), reader.GetString("isbn"));
-                    Console.WriteLine(b);
+                     book = new Book(reader.GetInt32("id"), reader.GetString("title"), reader.GetString("author"), reader.GetInt32("publishingYear"), reader.GetString("isbn"));
+                    
                 }
                 else
                 {
@@ -139,6 +129,7 @@ namespace ADONETEX01.Class
             {
                 connection.Close();
             }
+            return book;
 
         }
 
@@ -146,12 +137,11 @@ namespace ADONETEX01.Class
         // --------------------------------------------
         // --------------------------------------------
 
-        public static void ModifyBook()
+        public static void ModifyBook(int id)
         {
-            Console.WriteLine("id du livre recherché: ");
-            var id = int.Parse(Console.ReadLine());
 
-            MySqlConnection connection = new MySqlConnection(Book._connectionString);
+
+            MySqlConnection connection = new MySqlConnection(_connectionString);
             try
             {
                 connection.Open();
@@ -168,16 +158,16 @@ namespace ADONETEX01.Class
                 }
 
                 Console.WriteLine("modification du  livre");
-                Console.WriteLine("titre : ");
+                Console.Write("titre : ");
                 var title = Console.ReadLine();
 
-                Console.WriteLine("auteur : ");
+                Console.Write("auteur : ");
                 var author = Console.ReadLine();
 
-                Console.WriteLine("date de publication : ");
+                Console.Write("date de publication : ");
                 var publishingYear = int.Parse(Console.ReadLine());
 
-                Console.WriteLine("isbn : ");
+                Console.Write("isbn : ");
                 var isbn = Console.ReadLine();
 
                 string query = "UPDATE livres SET title = @title, author = @author, publishingYear = @publishingYear, isbn = @isbn WHERE id = @id";
@@ -215,7 +205,7 @@ namespace ADONETEX01.Class
             Console.WriteLine("id du livre recherché: ");
             var id = int.Parse(Console.ReadLine());
 
-            MySqlConnection connection = new MySqlConnection(Book._connectionString);
+            MySqlConnection connection = new MySqlConnection(_connectionString);
             try
             {
                 connection.Open();

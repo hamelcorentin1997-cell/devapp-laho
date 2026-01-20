@@ -8,13 +8,13 @@ namespace ADONETEX01.Class
 {
     internal class Book
     {
-        public int Id { get; set; }
-        public string Title { get; set; }
-        public string Author { get; set; }
-        public int PublishingYear { get; set; }
-        public string Isbn { get; set; }
+        internal int Id;
+        internal string Title;
+        internal string Author;
+        internal int PublishingYear;
+        internal string Isbn;
 
-        internal static string _connectionString = "Server=localhost;Database=db_Livres ;User ID=root;Password=root";
+        
 
         public Book(string title, string author, int publishingYear, string isbn) 
         {

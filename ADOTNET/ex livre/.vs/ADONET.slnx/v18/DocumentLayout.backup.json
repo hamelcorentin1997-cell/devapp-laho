@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12D53F77-3868-4652-AB6F-A5E636E9B0D0}|ADONETEX02\\ADONETEX02.csproj|c:\\users\\administrateur\\desktop\\devapp-laho\\adotnet\\ex livre\\adonetex02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D53F77-3868-4652-AB6F-A5E636E9B0D0}|ADONETEX02\\ADONETEX02.csproj|solutionrelative:adonetex02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D53F77-3868-4652-AB6F-A5E636E9B0D0}|ADONETEX02\\ADONETEX02.csproj|c:\\users\\administrateur\\desktop\\devapp-laho\\adotnet\\ex livre\\adonetex02\\class\\commandes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D53F77-3868-4652-AB6F-A5E636E9B0D0}|ADONETEX02\\ADONETEX02.csproj|solutionrelative:adonetex02\\class\\commandes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D53F77-3868-4652-AB6F-A5E636E9B0D0}|ADONETEX02\\ADONETEX02.csproj|c:\\users\\administrateur\\desktop\\devapp-laho\\adotnet\\ex livre\\adonetex02\\class\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D53F77-3868-4652-AB6F-A5E636E9B0D0}|ADONETEX02\\ADONETEX02.csproj|solutionrelative:adonetex02\\class\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC18C7C4-0510-44EC-A428-404B60273F6E}|ADONETEX01\\ADONETEX01.csproj|c:\\users\\administrateur\\desktop\\devapp-laho\\adotnet\\ex livre\\adonetex01\\class\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC18C7C4-0510-44EC-A428-404B60273F6E}|ADONETEX01\\ADONETEX01.csproj|solutionrelative:adonetex01\\class\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC18C7C4-0510-44EC-A428-404B60273F6E}|ADONETEX01\\ADONETEX01.csproj|c:\\users\\administrateur\\desktop\\devapp-laho\\adotnet\\ex livre\\adonetex01\\class\\ihm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC18C7C4-0510-44EC-A428-404B60273F6E}|ADONETEX01\\ADONETEX01.csproj|solutionrelative:adonetex01\\class\\ihm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC18C7C4-0510-44EC-A428-404B60273F6E}|ADONETEX01\\ADONETEX01.csproj|c:\\users\\administrateur\\desktop\\devapp-laho\\adotnet\\ex livre\\adonetex01\\class\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC18C7C4-0510-44EC-A428-404B60273F6E}|ADONETEX01\\ADONETEX01.csproj|solutionrelative:adonetex01\\class\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D53F77-3868-4652-AB6F-A5E636E9B0D0}|ADONETEX02\\ADONETEX02.csproj|c:\\users\\administrateur\\desktop\\devapp-laho\\adotnet\\ex livre\\adonetex02\\class\\ihm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D53F77-3868-4652-AB6F-A5E636E9B0D0}|ADONETEX02\\ADONETEX02.csproj|solutionrelative:adonetex02\\class\\ihm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D53F77-3868-4652-AB6F-A5E636E9B0D0}|ADONETEX02\\ADONETEX02.csproj|c:\\users\\administrateur\\desktop\\devapp-laho\\adotnet\\ex livre\\adonetex02\\class\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D53F77-3868-4652-AB6F-A5E636E9B0D0}|ADONETEX02\\ADONETEX02.csproj|solutionrelative:adonetex02\\class\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D53F77-3868-4652-AB6F-A5E636E9B0D0}|ADONETEX02\\ADONETEX02.csproj|c:\\users\\administrateur\\desktop\\devapp-laho\\adotnet\\ex livre\\adonetex02\\adonetex02.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{12D53F77-3868-4652-AB6F-A5E636E9B0D0}|ADONETEX02\\ADONETEX02.csproj|solutionrelative:adonetex02\\adonetex02.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Commandes.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX02\\Class\\Commandes.cs",
+              "RelativeDocumentMoniker": "ADONETEX02\\Class\\Commandes.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX02\\Class\\Commandes.cs",
+              "RelativeToolTip": "ADONETEX02\\Class\\Commandes.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T09:27:15.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Clients.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX02\\Class\\Clients.cs",
+              "RelativeDocumentMoniker": "ADONETEX02\\Class\\Clients.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX02\\Class\\Clients.cs",
+              "RelativeToolTip": "ADONETEX02\\Class\\Clients.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowBAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T09:27:04.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Repo.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX02\\Class\\Repo.cs",
+              "RelativeDocumentMoniker": "ADONETEX02\\Class\\Repo.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX02\\Class\\Repo.cs",
+              "RelativeToolTip": "ADONETEX02\\Class\\Repo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T09:05:55.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ihm.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX02\\Class\\Ihm.cs",
+              "RelativeDocumentMoniker": "ADONETEX02\\Class\\Ihm.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX02\\Class\\Ihm.cs",
+              "RelativeToolTip": "ADONETEX02\\Class\\Ihm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T09:05:42.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ADONETEX02",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX02\\ADONETEX02.csproj",
+              "RelativeDocumentMoniker": "ADONETEX02\\ADONETEX02.csproj",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX02\\ADONETEX02.csproj",
+              "RelativeToolTip": "ADONETEX02\\ADONETEX02.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-20T09:05:13.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX02\\Program.cs",
+              "RelativeDocumentMoniker": "ADONETEX02\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX02\\Program.cs",
+              "RelativeToolTip": "ADONETEX02\\Program.cs",
+              "ViewState": "AgIAACEBAAAAAAAAAAAwwDMBAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T09:04:39.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX01\\Class\\Book.cs",
+              "RelativeDocumentMoniker": "ADONETEX01\\Class\\Book.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX01\\Class\\Book.cs",
+              "RelativeToolTip": "ADONETEX01\\Class\\Book.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:08:24.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Repo.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX01\\Class\\Repo.cs",
+              "RelativeDocumentMoniker": "ADONETEX01\\Class\\Repo.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX01\\Class\\Repo.cs",
+              "RelativeToolTip": "ADONETEX01\\Class\\Repo.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAcwOkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:51:38.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ihm.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX01\\Class\\Ihm.cs",
+              "RelativeDocumentMoniker": "ADONETEX01\\Class\\Ihm.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX01\\Class\\Ihm.cs",
+              "RelativeToolTip": "ADONETEX01\\Class\\Ihm.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:44:59.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

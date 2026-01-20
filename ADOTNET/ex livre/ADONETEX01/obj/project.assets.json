@@ -558,11 +558,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrateur\\Desktop\\c#\\ADONET\\ADONETEX01\\ADONETEX01.csproj",
+      "projectUniqueName": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX01\\ADONETEX01.csproj",
       "projectName": "ADONETEX01",
-      "projectPath": "C:\\Users\\Administrateur\\Desktop\\c#\\ADONET\\ADONETEX01\\ADONETEX01.csproj",
+      "projectPath": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX01\\ADONETEX01.csproj",
       "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrateur\\Desktop\\c#\\ADONET\\ADONETEX01\\obj\\",
+      "outputPath": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\ex livre\\ADONETEX01\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

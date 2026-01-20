@@ -3,4 +3,4 @@ using ADONETEX01.Class;
 
 Console.WriteLine("exercice livre");
 
-Ihm.menu();
+Ihm.menu(); 

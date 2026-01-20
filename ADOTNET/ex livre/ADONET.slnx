@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="ADONET/ADONET.csproj" />
   <Project Path="ADONETEX01/ADONETEX01.csproj" Id="fc18c7c4-0510-44ec-a428-404b60273f6e" />
+  <Project Path="ADONETEX02/ADONETEX02.csproj" Id="12d53f77-3868-4652-ab6f-a5e636e9b0d0" />
 </Solution>
