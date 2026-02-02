@@ -1,6 +1,5 @@
 # TPFinal - Console Blog (C# / .NET 10)
 
-Respiration effectuée — voici un `README` concis et opérationnel pour ce programme console.
 
 ## Description
 Petit gestionnaire de blog en console permettant de créer, lister, consulter, modifier et supprimer des articles, ainsi que d'ajouter/supprimer des commentaires. L'entrée du programme se trouve dans `Program.cs` qui appelle `ConsoleMenu.Menu()`.
