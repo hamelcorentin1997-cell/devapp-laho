@@ -21,6 +21,8 @@ namespace TPFinal.Controllers
             _context = context;
         }
 
+
+        // obtenir tous les articles avec filtres optionnels
         [HttpGet]
         public IActionResult GetAll([FromQuery] int? id, [FromQuery] string? title, [FromQuery] string? content, [FromQuery] string? creationDate)
         {
@@ -63,6 +65,8 @@ namespace TPFinal.Controllers
         }
 
         // ---------------------------------------------------------------------------
+
+        // obtenir un article par son id avec ses commentaires associés
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
@@ -97,11 +101,12 @@ namespace TPFinal.Controllers
         }
 
         // ---------------------------------------------------------------------------
+        // créer un nouvel article
         [HttpPost]
         public IActionResult CreateArticle([FromBody] ArticleCreationRequest payload)
         {
             if (payload == null)
-                return BadRequest(new { Message = "Payload is required." });
+                return BadRequest(new { Message = "Payload requis." });
 
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -129,6 +134,7 @@ namespace TPFinal.Controllers
             return CreatedAtAction(nameof(GetById), new { id = newArticle.Id }, responseDto);
         }
         // ---------------------------------------------------------------------------
+        // modifier un article existant
         [HttpPatch("{id}")]
         public IActionResult ModifyArticle(int id, [FromBody] ArticleModificationRequest payload)
         {
@@ -144,6 +150,7 @@ namespace TPFinal.Controllers
             return NoContent();
         }
         // ---------------------------------------------------------------------------
+        // supprimer un article par son id
         [HttpDelete("{id}")]
         public IActionResult DeleteArticle(int id)
         {

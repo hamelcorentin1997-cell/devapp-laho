@@ -21,7 +21,7 @@ namespace TPFinal.Controllers
             _context = context;
         }
 
-
+        // obtenir tous les commentaires
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -30,6 +30,7 @@ namespace TPFinal.Controllers
         }
         // ---------------------------------------------------------------------------
 
+        // obtenir un commentaire par son id
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
@@ -42,12 +43,12 @@ namespace TPFinal.Controllers
         }
 
         // ---------------------------------------------------------------------------
-
+        // créer un nouveau commentaire
         [HttpPost]
         public IActionResult CreateComment([FromBody] CommentCreationRequest payload)
         {
             if (payload == null)
-                return BadRequest(new { Message = "Payload is required." });
+                return BadRequest(new { Message = "Payload requis." });
 
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -55,7 +56,7 @@ namespace TPFinal.Controllers
             // Vérifier que l'article existe
             var article = _context.Articles.Find(payload.ArticleId);
             if (article == null)
-                return NotFound(new { Message = $"Article with ID {payload.ArticleId} not found." });
+                return NotFound(new { Message = $"Article avec l'ID {payload.ArticleId} non trouvé." });
 
             var newComment = new Comment()
             {
@@ -66,9 +67,10 @@ namespace TPFinal.Controllers
                 CreationDate = DateOnly.FromDateTime(DateTime.UtcNow)
             };
 
-            // Ajouter le commentaire au contexte et à la collection de l'article pour cohérence en mémoire
+
             _context.Comments.Add(newComment);
 
+            // si l'article n'a pas de liste de commentaires, en créer une
             article.Comments ??= new List<Comment>();
             article.Comments.Add(newComment);
 
@@ -85,18 +87,20 @@ namespace TPFinal.Controllers
 
             return CreatedAtAction(nameof(GetById), new { id = newComment.Id }, responseDto);
         }
+
         // ---------------------------------------------------------------------------
+        // supprimer un commentaire par son id
         [HttpDelete("{id}")]
         public IActionResult DeleteComment(int id)
         {
             var comment = _context.Comments.Find(id);
             if (comment == null)
             {
-                return NotFound(new { Message = $"Comment with ID {id} not found." });
+                return NotFound(new { Message = $"Commentaire avec l'ID {id} non trouvé." });
             }
             _context.Comments.Remove(comment);
             _context.SaveChanges();
-            return Ok(new { Message = "Comment deleted successfully." });
+            return Ok(new { Message = "Commentaire supprimé." });
         }
 
     }

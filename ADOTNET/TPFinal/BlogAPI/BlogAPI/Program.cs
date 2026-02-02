@@ -1,5 +1,4 @@
 using TPFinal.Class;
-//using TPFinal.UI;
 using Microsoft.EntityFrameworkCore;
 using TPFinal.Data;
 
@@ -31,4 +30,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-//ConsoleMenu.Menu();
+
