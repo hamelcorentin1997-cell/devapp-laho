@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogAPI.csproj|c:\\users\\administrateur\\downloads\\tpfinal 1\\tpfinal\\tpfinal\\tpfinal\\blogapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogAPI.csproj|solutionrelative:tpfinal\\blogapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|c:\\users\\administrateur\\downloads\\tpfinal 1\\tpfinal\\tpfinal\\tpfinal\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|solutionrelative:tpfinal\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|c:\\users\\administrateur\\downloads\\tpfinal 1\\tpfinal\\tpfinal\\tpfinal\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|solutionrelative:tpfinal\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|c:\\users\\administrateur\\downloads\\tpfinal 1\\tpfinal\\tpfinal\\tpfinal\\dto\\articledetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|solutionrelative:tpfinal\\dto\\articledetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|c:\\users\\administrateur\\downloads\\tpfinal 1\\tpfinal\\tpfinal\\tpfinal\\dto\\commentdetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|solutionrelative:tpfinal\\dto\\commentdetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|c:\\users\\administrateur\\downloads\\tpfinal 1\\tpfinal\\tpfinal\\tpfinal\\dto\\articlebasicinforesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|solutionrelative:tpfinal\\dto\\articlebasicinforesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|c:\\users\\administrateur\\downloads\\tpfinal 1\\tpfinal\\tpfinal\\tpfinal\\class\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|solutionrelative:tpfinal\\class\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|c:\\users\\administrateur\\downloads\\tpfinal 1\\tpfinal\\tpfinal\\tpfinal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|solutionrelative:tpfinal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|c:\\users\\administrateur\\downloads\\tpfinal 1\\tpfinal\\tpfinal\\tpfinal\\dto\\articlecreationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|solutionrelative:tpfinal\\dto\\articlecreationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|c:\\users\\administrateur\\downloads\\tpfinal 1\\tpfinal\\tpfinal\\tpfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|solutionrelative:tpfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|c:\\users\\administrateur\\downloads\\tpfinal 1\\tpfinal\\tpfinal\\tpfinal\\class\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|solutionrelative:tpfinal\\class\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|c:\\users\\administrateur\\downloads\\tpfinal 1\\tpfinal\\tpfinal\\tpfinal\\dto\\commentcreationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|solutionrelative:tpfinal\\dto\\commentcreationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|c:\\users\\administrateur\\downloads\\tpfinal 1\\tpfinal\\tpfinal\\tpfinal\\dto\\articlemodificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5EFB49-648B-AE4A-F921-7D926FADE4BD}|TPFinal\\BlogConsole_BlogAPI.csproj|solutionrelative:tpfinal\\dto\\articlemodificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\.github\\copilot-instructions.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\copilot-instructions.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArticleController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\Controllers\\ArticleController.cs",
+              "RelativeDocumentMoniker": "TPFinal\\Controllers\\ArticleController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\Controllers\\ArticleController.cs",
+              "RelativeToolTip": "TPFinal\\Controllers\\ArticleController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAMwEwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T11:00:48.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "TPFinal\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\Controllers\\CommentController.cs*",
+              "RelativeToolTip": "TPFinal\\Controllers\\CommentController.cs*",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwGMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T11:01:42.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArticleDetailsResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\DTO\\ArticleDetailsResponse.cs",
+              "RelativeDocumentMoniker": "TPFinal\\DTO\\ArticleDetailsResponse.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\DTO\\ArticleDetailsResponse.cs*",
+              "RelativeToolTip": "TPFinal\\DTO\\ArticleDetailsResponse.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T13:09:49.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TPFinal\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TPFinal\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T10:14:53.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArticleBasicInfoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\DTO\\ArticleBasicInfoResponse.cs",
+              "RelativeDocumentMoniker": "TPFinal\\DTO\\ArticleBasicInfoResponse.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\DTO\\ArticleBasicInfoResponse.cs",
+              "RelativeToolTip": "TPFinal\\DTO\\ArticleBasicInfoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T11:19:16.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommentDetailsresponse.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\DTO\\CommentDetailsresponse.cs",
+              "RelativeDocumentMoniker": "TPFinal\\DTO\\CommentDetailsresponse.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\DTO\\CommentDetailsresponse.cs",
+              "RelativeToolTip": "TPFinal\\DTO\\CommentDetailsresponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:17:26.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlogConsole_BlogAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\BlogAPI.csproj",
+              "RelativeDocumentMoniker": "TPFinal\\BlogAPI.csproj",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\BlogAPI.csproj",
+              "RelativeToolTip": "TPFinal\\BlogAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-28T08:17:39.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ArticleCreationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\DTO\\ArticleCreationRequest.cs",
+              "RelativeDocumentMoniker": "TPFinal\\DTO\\ArticleCreationRequest.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\DTO\\ArticleCreationRequest.cs",
+              "RelativeToolTip": "TPFinal\\DTO\\ArticleCreationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T12:40:05.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\Class\\Article.cs",
+              "RelativeDocumentMoniker": "TPFinal\\Class\\Article.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\Class\\Article.cs",
+              "RelativeToolTip": "TPFinal\\Class\\Article.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:18:04.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\Program.cs",
+              "RelativeDocumentMoniker": "TPFinal\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\Program.cs",
+              "RelativeToolTip": "TPFinal\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:44:30.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\Class\\Comment.cs",
+              "RelativeDocumentMoniker": "TPFinal\\Class\\Comment.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\Class\\Comment.cs",
+              "RelativeToolTip": "TPFinal\\Class\\Comment.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:18:25.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CommentCreationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\DTO\\CommentCreationRequest.cs",
+              "RelativeDocumentMoniker": "TPFinal\\DTO\\CommentCreationRequest.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\DTO\\CommentCreationRequest.cs",
+              "RelativeToolTip": "TPFinal\\DTO\\CommentCreationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:13:05.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ArticleModificationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\DTO\\ArticleModificationRequest.cs",
+              "RelativeDocumentMoniker": "TPFinal\\DTO\\ArticleModificationRequest.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\TPFinal\\DTO\\ArticleModificationRequest.cs",
+              "RelativeToolTip": "TPFinal\\DTO\\ArticleModificationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T08:50:08.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "copilot-instructions.md",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\.github\\copilot-instructions.md",
+              "RelativeDocumentMoniker": ".github\\copilot-instructions.md",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\TPFinal 1\\TPFinal\\TPFinal\\.github\\copilot-instructions.md",
+              "RelativeToolTip": ".github\\copilot-instructions.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-01-31T12:48:23.098Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

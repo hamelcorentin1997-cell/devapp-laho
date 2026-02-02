@@ -343,7 +343,7 @@ void AjouterCommande()
 //AjouterClient();
 //AjouterClient();
 //SuprimmerClient();
-//AfficherClient();
+AfficherClient();
 //AjouterCommande();
 
 DetailClient();

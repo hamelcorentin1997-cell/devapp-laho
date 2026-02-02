@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Data",
+    "\\DTO",
+    "\\obj",
+    "\\obj\\Release",
+    "\\Properties",
+    "\\Services"
+  ],
+  "SelectedNode": "\\DTO\\ArticleBasicInfoResponse.cs",
+  "PreviewInSolutionExplorer": false
+}
