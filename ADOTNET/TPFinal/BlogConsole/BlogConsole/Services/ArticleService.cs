@@ -69,19 +69,7 @@ namespace TPFinal.Services
             {
                 return $"pas d'article trouvé pour l'id {id}";
             }
-            //foreach (Article article in Article.Articles)
-            //{
-            //    if (article.CurrentId == id)
-            //    {
-            //        Article.Articles.Remove(article);
-            //        return "article suprimmé";
-            //    }
-            //    else 
-            //    {
-            //        return $"pas d'article trouvé pour l'id {id}"; 
-            //    }
-            //}
-            //return "aucun article actuellement enregisté";
+
 
         }
     }

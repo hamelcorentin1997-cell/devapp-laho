@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zZMJo9hwUYE=",
+  "dgSpecHash": "Sv8BdiGSEf4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrateur\\Downloads\\TPFinal\\TPFinal\\TPFinal\\BlogConsole.csproj",
+  "projectFilePath": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\TPFinal\\BlogConsole\\BlogConsole\\BlogConsole.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrateur\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.2\\microsoft.aspnetcore.openapi.10.0.2.nupkg.sha512",

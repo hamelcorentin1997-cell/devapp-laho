@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrateur\\Downloads\\TPFinal\\TPFinal\\TPFinal\\BlogConsole.csproj": {}
+    "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\TPFinal\\BlogConsole\\BlogConsole\\BlogConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrateur\\Downloads\\TPFinal\\TPFinal\\TPFinal\\BlogConsole.csproj": {
+    "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\TPFinal\\BlogConsole\\BlogConsole\\BlogConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrateur\\Downloads\\TPFinal\\TPFinal\\TPFinal\\BlogConsole.csproj",
+        "projectUniqueName": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\TPFinal\\BlogConsole\\BlogConsole\\BlogConsole.csproj",
         "projectName": "BlogConsole",
-        "projectPath": "C:\\Users\\Administrateur\\Downloads\\TPFinal\\TPFinal\\TPFinal\\BlogConsole.csproj",
+        "projectPath": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\TPFinal\\BlogConsole\\BlogConsole\\BlogConsole.csproj",
         "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrateur\\Downloads\\TPFinal\\TPFinal\\TPFinal\\obj\\",
+        "outputPath": "C:\\Users\\Administrateur\\Desktop\\devapp-laho\\ADOTNET\\TPFinal\\BlogConsole\\BlogConsole\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

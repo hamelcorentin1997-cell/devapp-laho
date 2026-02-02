@@ -11,13 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("BlogConsole")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bba3d9b37d0044f5f8fbc7a39c18a319790860f1")]
-[assembly: System.Reflection.AssemblyProductAttribute("BlogConsole")]
-[assembly: System.Reflection.AssemblyTitleAttribute("BlogConsole")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("Microsoft.AspNetCore.OpenApi")]
 
 // Généré par la classe MSBuild WriteCodeFragment.
 
