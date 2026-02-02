@@ -14,7 +14,7 @@ Petit gestionnaire de blog en console permettant de créer, lister, consulter, m
 - `UI/ConsoleMenu.cs` — menu interactif et logique d'interface utilisateur.
 - `UI/ConsoleHelper.cs` — utilitaires d'affichage (en-têtes, erreurs, pause).
 - `Services/ArticleService.cs` — opérations CRUD sur les articles.
-- (Présence de classes `Article`, `Comment`, et `CommentService` attendue dans le projet.)
+- (Présence de classes `Article`, `Comment`, `ArticleService` et `CommentService` attendue dans le projet.)
 
 ## Installation et exécution
 1. Ouvrir la solution dans Visual Studio 2026 et lancer le débogage via __F5__ (ou __Debug > Start Debugging__).
